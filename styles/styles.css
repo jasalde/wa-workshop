@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    transition: transform 0.3s;
+
+    img {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.rating {
+    color: gold;
+}
+
+.contact-form {
+    padding: 2rem;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    button {
+        background-color: #1a1a1a;
+        color: white;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
