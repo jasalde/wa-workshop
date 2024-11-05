@@ -23,7 +23,7 @@ nav ul {
     li {
         margin: 0 1rem;
         a {
-            color: #1d6afc;
+            color: #918117;
             text-decoration: none;
             font-weight: bold;
         }
@@ -50,8 +50,18 @@ nav ul {
     }
 }
 
+.card__content {
+    display: flex;
+    justify-content: space-between;
+}
+
 .card:hover {
     transform: scale(1.05);
+}
+
+.description-short {
+    color: #c4c4c4;
+    font-size:10px;
 }
 
 .rating {

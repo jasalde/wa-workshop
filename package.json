@@ -1,0 +1,23 @@
+{
+  "name": "wa-workshop",
+  "version": "1.0.0",
+  "description": "Basic html and javascript code as part of a Web Accessibility workshop",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8080"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasalde/wa-workshop.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/jasalde/wa-workshop/issues"
+  },
+  "homepage": "https://github.com/jasalde/wa-workshop#readme"
+}
