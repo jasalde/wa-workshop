@@ -1,7 +1,7 @@
 # wa-workshop
 Basic html and javascript code as part of a Web Accessibility workshop
 
-In this repository you will find a simple **Product Catalogue Page** where we can compare products by rating.
+In this repository you will find a simple **Vinyl Record Catalogue Page** where we can compare Vinyl Records by rating.
 Three of our key-users had trouble using this website
 and we need your help to fix the issues to make the website more accessible.
 
