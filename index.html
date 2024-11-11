@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Check24.de | ZZV - Web Accessibility</title>
+    <title>ZZV - Web Accessibility | Check24.de</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 <header>
-    <h1>Welcome to the Accessibility Workshop</h1>
+    <h1>Welcome to the Web Accessibility Workshop</h1>
     <nav>
         <ul>
             <li><a href="#products">Products</a></li>
@@ -21,19 +21,23 @@
 <div class="container">
 
     <div id="products">
-        <h1>Product Catalog</h1>
+        <h1>Our Vinyl Collection</h1>
 
         <div class="card">
-            <h2>Product 1</h2>
+            <h2>The Dark Side of the Moon</h2>
 
             <div class="card__content">
                 <div class="card_product">
-                    <img src="https://images.unsplash.com/photo-1521425700123-f8610a448ba3?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-                    <div class="description-short">Artist1 - LP Name - Release</div>
+                    <img src="https://recordsale.de/assets/WyJwaW5rZmxveWQtdGhlZGFya3NpZGVvZnRoZW1vb24oMjgpLmpwZyIsIndlYnAiLDg2MCw4NjBd--c5d3da7490ecbdfb9dcbb1a44b1f2732a0387eabaa972092845e7c597edc2a5d.webp" />
+                    <div class="description-short">Artist2 - LP Name - Release</div>
                 </div>
 
                 <div class="card__description">
-                    Description of product 1. This is a great product!
+                    Released in 1973, Pink Floyd's "The Dark Side of the Moon" remains one of the most influential and
+                    best-selling albums of all time. With its combination of progressive rock and ambient music,
+                    it explores complex themes such as mental illness, conflict, and the human condition.
+                    The album features timeless tracks like "Time," "Money," and "Us and Them."
+                    <a href="#more3" class="read-more">Read more</a>
                 </div>
             </div>
 
@@ -43,15 +47,20 @@
         </div>
 
         <div class="card">
-            <h2>Product 2</h2>
+            <h2>Abbey Road</h2>
 
             <div class="card__content">
                 <div class="card_product">
-                    <img src="https://images.unsplash.com/photo-1629923759854-156b88c433aa?q=80&w=2947&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  />
+                    <img src="https://recordsale.de/assets/WyJ0aGUtYmVhdGxlc19hYmJleS1yb2FkXzI3Ny5qcGciLCJ3ZWJwIiw0MzAsNDMwXQ==--d55f2f17e516c29be022379d7554eac2604acc11cc043f3826f57c253c4f12ec.webp"  />
                     <div class="description-short">Artist2 - LP Name - Release</div>
                 </div>
                 <div class="card__description">
-                    Description of product 2. This product is even better!
+                    The Beatles' "Abbey Road" was released in 1969 and is widely regarded as one of the greatest
+                    albums of all time. The album features the iconic medley on side two, which transitions
+                    between several songs and showcases the band's musical genius. Tracks like "Come Together" and
+                    "Something" are still beloved by music fans around the world.
+
+                    <a href="#more3" class="read-more">Read more</a>
                 </div>
             </div>
 
@@ -61,15 +70,19 @@
         </div>
 
         <div class="card">
-            <h2>Product 3</h2>
+            <h2>Thriller</h2>
 
             <div class="card__content">
                 <div class="card_product">
-                    <img src="https://images.pexels.com/photos/2275442/pexels-photo-2275442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+                    <img src="https://recordsale.de/assets/WyJtaWNoYWVsLWphY2tzb25fdGhyaWxsZXJnYXRlZm9sZF80Mi5qcGciLCJ3ZWJwIiw4NjAsODYwXQ==--c8649f07ebdd498ac517a78a3c51b2c0430549e252c378c5dff4a3d43e81cb6d.webp" />
                     <div class="description-short">Artist3 - LP Name - Release</div>
                 </div>
                 <div class="card__description">
-                    Description of product 3. Don't miss out on this one!
+                    Michael Jackson's "Thriller," released in 1982, is the best-selling album of all time.
+                    Combining pop, rock, and R&B influences, "Thriller" produced hit songs like "Billie Jean",
+                    "Beat It", and the title track. The album's cultural impact is immeasurable, and it
+                    continues to influence artists across genres to this day.
+                    <a href="#more3" class="read-more">Read more</a>
                 </div>
             </div>
 
@@ -85,7 +98,7 @@
         <form id="contactForm">
             <input type="text" id="name" name="name" placeholder="Your Name" required><br />
 
-            <input type="email" id="email" name="email" placeholder="Your Email" required><br />
+            <input  tabindex="-1" type="email" id="email" name="email" placeholder="Your Email" required><br />
 
             <textarea id="message" name="message" placeholder="Your Message" required></textarea><br />
 
